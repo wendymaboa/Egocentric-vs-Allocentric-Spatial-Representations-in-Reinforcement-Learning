@@ -1,0 +1,215 @@
+================================================================================
+DOORKEY RANDOM COLOR GENERALIZATION TEST
+Environment: MiniGrid-DoorKey-5x5-v0
+Seeds: [0, 1, 2]
+Episodes per seed: 100
+================================================================================
+
+
+PPO - allocentric:
+  Testing on STANDARD colors...
+  Evaluating Seed 0...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Success Rate: 66.0% | Return: 0.637 ± 0.458
+  Evaluating Seed 1...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 2: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Ep 3: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 4: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Success Rate: 91.0% | Return: 0.878 ± 0.276
+  Evaluating Seed 2...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 2: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Ep 3: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 4: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Success Rate: 100.0% | Return: 0.965 ± 0.006
+  Standard: 85.7% ± 14.4%
+  Testing on RANDOM colors...
+  Evaluating Seed 0...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 4.0% | Return: 0.039 ± 0.189
+  Evaluating Seed 1...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Success Rate: 5.0% | Return: 0.048 ± 0.209
+  Evaluating Seed 2...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 9.0% | Return: 0.087 ± 0.275
+  Random: 6.0% ± 2.2%
+
+PPO - egocentric:
+  Testing on STANDARD colors...
+  Evaluating Seed 0...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 2: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Ep 3: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 4: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Success Rate: 100.0% | Return: 0.965 ± 0.006
+  Evaluating Seed 1...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 2: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Ep 3: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 4: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Success Rate: 100.0% | Return: 0.965 ± 0.006
+  Evaluating Seed 2...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 34.0% | Return: 0.327 ± 0.456
+  Standard: 78.0% ± 31.1%
+  Testing on RANDOM colors...
+  Evaluating Seed 0...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 10.0% | Return: 0.097 ± 0.290
+  Evaluating Seed 1...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Success Rate: 8.0% | Return: 0.077 ± 0.261
+  Evaluating Seed 2...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 2.0% | Return: 0.019 ± 0.134
+  Random: 6.7% ± 3.4%
+
+DQN - allocentric:
+  Testing on STANDARD colors...
+  Evaluating Seed 0...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Ep 2: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Ep 3: steps= 11, reward=0.960, done=True, max_single_reward=0.960
+    Ep 4: steps= 11, reward=0.960, done=True, max_single_reward=0.960
+    Success Rate: 100.0% | Return: 0.960 ± 0.009
+  Evaluating Seed 1...
+    Ep 0: steps= 10, reward=0.964, done=True, max_single_reward=0.964
+    Ep 1: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 2: steps= 17, reward=0.939, done=True, max_single_reward=0.939
+    Ep 3: steps= 10, reward=0.964, done=True, max_single_reward=0.964
+    Ep 4: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Success Rate: 100.0% | Return: 0.960 ± 0.009
+  Evaluating Seed 2...
+    Ep 0: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 1: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 2: steps= 14, reward=0.950, done=True, max_single_reward=0.950
+    Ep 3: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 4: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Success Rate: 100.0% | Return: 0.960 ± 0.009
+  Standard: 100.0% ± 0.0%
+  Testing on RANDOM colors...
+  Evaluating Seed 0...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 9.0% | Return: 0.092 ± 0.264
+  Evaluating Seed 1...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 15.0% | Return: 0.138 ± 0.316
+  Evaluating Seed 2...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps= 10, reward=0.964, done=True, max_single_reward=0.964
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 15.0% | Return: 0.136 ± 0.311
+  Random: 13.0% ± 2.8%
+
+DQN - egocentric:
+  Testing on STANDARD colors...
+  Evaluating Seed 0...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Ep 2: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Ep 3: steps= 11, reward=0.960, done=True, max_single_reward=0.960
+    Ep 4: steps= 11, reward=0.960, done=True, max_single_reward=0.960
+    Success Rate: 100.0% | Return: 0.960 ± 0.009
+  Evaluating Seed 1...
+    Ep 0: steps= 10, reward=0.964, done=True, max_single_reward=0.964
+    Ep 1: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 2: steps= 17, reward=0.939, done=True, max_single_reward=0.939
+    Ep 3: steps= 10, reward=0.964, done=True, max_single_reward=0.964
+    Ep 4: steps= 12, reward=0.957, done=True, max_single_reward=0.957
+    Success Rate: 100.0% | Return: 0.960 ± 0.009
+  Evaluating Seed 2...
+    Ep 0: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 1: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 2: steps= 14, reward=0.950, done=True, max_single_reward=0.950
+    Ep 3: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Ep 4: steps=  9, reward=0.968, done=True, max_single_reward=0.968
+    Success Rate: 100.0% | Return: 0.960 ± 0.009
+  Standard: 100.0% ± 0.0%
+  Testing on RANDOM colors...
+  Evaluating Seed 0...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 11.0% | Return: 0.104 ± 0.296
+  Evaluating Seed 1...
+    Ep 0: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 1: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 8.0% | Return: 0.073 ± 0.250
+  Evaluating Seed 2...
+    Ep 0: steps=  8, reward=0.971, done=True, max_single_reward=0.971
+    Ep 1: steps= 10, reward=0.964, done=True, max_single_reward=0.964
+    Ep 2: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 3: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Ep 4: steps=200, reward=0.000, done=False, max_single_reward=0.000
+    Success Rate: 7.0% | Return: 0.073 ± 0.238
+  Random: 8.7% ± 1.7%
+
+================================================================================
+DOORKEY RANDOM COLOR RESULTS (Aggregated across seeds)
+================================================================================
+Algorithm Observation Standard Success (%) Random Colors Success (%) Performance Drop (%) Standard Return Random Return  Num Seeds
+      PPO Allocentric          85.7 ± 14.4                 6.0 ± 2.2                 79.7   0.827 ± 0.138 0.058 ± 0.021
+3
+      PPO  Egocentric          78.0 ± 31.1                 6.7 ± 3.4                 71.3   0.752 ± 0.301 0.064 ± 0.033
+3
+      DQN Allocentric          100.0 ± 0.0                13.0 ± 2.8                 87.0   0.960 ± 0.000 0.122 ± 0.021
+3
+      DQN  Egocentric          100.0 ± 0.0                 8.7 ± 1.7                 91.3   0.960 ± 0.000 0.083 ± 0.015
+3
+================================================================================
+
+Results saved to: results/doorkey_variants.csv

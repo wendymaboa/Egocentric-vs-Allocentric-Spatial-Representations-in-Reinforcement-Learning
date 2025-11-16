@@ -1,0 +1,5 @@
+Algorithm,Observation,Mean Success (%),Std Success (%)
+PPO,Egocentric,0.0,0.0
+PPO,Allocentric,0.0,0.0
+DQN,Egocentric,0.0,0.0
+DQN,Allocentric,0.0,0.0

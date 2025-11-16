@@ -1,0 +1,616 @@
+====================================================================================================
+GOTO OBJECT: MORE OBJECTS GENERALIZATION TEST
+Trained on: MiniGrid-GoToObject-6x6-N2-v0
+Testing on: ['MiniGrid-GoToObject-6x6-N2-v0', 'MiniGrid-GoToObject-8x8-N2-v0']
+Extra objects to add: [0, 1, 2, 3]
+Seeds: [0, 1, 2]
+====================================================================================================
+
+
+====================================================================================================
+TESTING: MiniGrid-GoToObject-6x6-N2-v0
+====================================================================================================
+
+PPO-allocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=4
+    Success: 66.0% | Return: 0.645 | Entropy: 0.611
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 51.0% | Return: 0.499 | Entropy: 0.597
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.975, steps=5
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.960, steps=8
+    Success: 50.0% | Return: 0.489 | Entropy: 0.683
+  Aggregated: 55.7% ± 7.3%
+
+PPO-egocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=3
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.995, steps=1
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 71.0% | Return: 0.695 | Entropy: 0.635
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.980, steps=4
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 73.0% | Return: 0.716 | Entropy: 0.605
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 64.0% | Return: 0.627 | Entropy: 0.711
+  Aggregated: 69.3% ± 3.9%
+
+DQN-allocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+DQN-egocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+====================================================================================================
+TESTING: MiniGrid-GoToObject-6x6-N2-v0 (+1 objects)
+====================================================================================================
+
+PPO-allocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.985, steps=3
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=5
+    Success: 42.0% | Return: 0.410 | Entropy: 0.790
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=1
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.995, steps=1
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 35.0% | Return: 0.343 | Entropy: 0.750
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.955, steps=9
+    Success: 39.0% | Return: 0.381 | Entropy: 0.792
+  Aggregated: 38.7% ± 2.9%
+
+PPO-egocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.995, steps=1
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 55.0% | Return: 0.538 | Entropy: 0.657
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.990, steps=2
+    Ep 3: reward=0.000, steps=6
+    Ep 4: reward=0.000, steps=180
+    Success: 49.0% | Return: 0.480 | Entropy: 0.651
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.975, steps=5
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.980, steps=4
+    Success: 49.0% | Return: 0.479 | Entropy: 0.790
+  Aggregated: 51.0% ± 2.8%
+
+DQN-allocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+DQN-egocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+====================================================================================================
+TESTING: MiniGrid-GoToObject-6x6-N2-v0 (+2 objects)
+====================================================================================================
+
+PPO-allocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.950, steps=10
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.965, steps=7
+    Success: 31.0% | Return: 0.302 | Entropy: 0.851
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 22.0% | Return: 0.215 | Entropy: 0.820
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 31.0% | Return: 0.303 | Entropy: 0.831
+  Aggregated: 28.0% ± 4.2%
+
+PPO-egocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 42.0% | Return: 0.410 | Entropy: 0.720
+  Evaluating Seed 1...
+    Ep 0: reward=0.955, steps=9
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.970, steps=6
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 46.0% | Return: 0.450 | Entropy: 0.650
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=5
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 43.0% | Return: 0.422 | Entropy: 0.738
+  Aggregated: 43.7% ± 1.7%
+
+DQN-allocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+DQN-egocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+====================================================================================================
+TESTING: MiniGrid-GoToObject-6x6-N2-v0 (+3 objects)
+====================================================================================================
+
+PPO-allocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=3
+    Success: 30.0% | Return: 0.294 | Entropy: 0.970
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 14.0% | Return: 0.138 | Entropy: 0.945
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 19.0% | Return: 0.186 | Entropy: 0.940
+  Aggregated: 21.0% ± 6.7%
+
+PPO-egocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.965, steps=7
+    Ep 1: reward=0.975, steps=5
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 39.0% | Return: 0.381 | Entropy: 0.712
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.995, steps=1
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=8
+    Success: 52.0% | Return: 0.510 | Entropy: 0.670
+  Evaluating Seed 2...
+    Ep 0: reward=0.965, steps=7
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=7
+    Success: 40.0% | Return: 0.392 | Entropy: 0.779
+  Aggregated: 43.7% ± 5.9%
+
+DQN-allocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+DQN-egocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+====================================================================================================
+TESTING: MiniGrid-GoToObject-8x8-N2-v0
+====================================================================================================
+
+PPO-allocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=200
+    Ep 1: reward=0.000, steps=200
+    Ep 2: reward=0.000, steps=200
+    Ep 3: reward=0.000, steps=200
+    Ep 4: reward=0.000, steps=200
+    Success: 0.0% | Return: 0.000 | Entropy: 1.618
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=200
+    Ep 1: reward=0.000, steps=200
+    Ep 2: reward=0.000, steps=200
+    Ep 3: reward=0.000, steps=200
+    Ep 4: reward=0.000, steps=200
+Traceback (most recent call last):
+  File "evaluate_goto_more_objects.py", line 271, in <module>
+    args.seeds, args.n_episodes, num_extra
+  File "evaluate_goto_more_objects.py", line 194, in evaluate_multiple_seeds
+    results = evaluate_model(model, env, n_episodes, agent_type)
+  File "evaluate_goto_more_objects.py", line 97, in evaluate_model
+    entropy = compute_ppo_entropy(model, obs)
+  File "evaluate_goto_more_objects.py", line 69, in compute_ppo_entropy
+    distribution = model.policy.get_distribution(obs_tensor)
+  File "C:\Users\Wendy\miniconda3\envs\minigrid\lib\site-packages\stable_baselines3\common\policies.py", line 712, in get_distrib    features = super().extract_features(obs, self.pi_features_extractor)
+  File "C:\Users\Wendy\miniconda3\envs\minigrid\lib\site-packages\stable_baselines3\common\policies.py", line 131, in extract_features
+    return features_extractor(preprocessed_obs)
+  File "C:\Users\Wendy\miniconda3\envs\minigrid\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Wendy\miniconda3\envs\minigrid\lib\site-packages\stable_baselines3\common\torch_layers.py", line 106, in forward    return self.linear(self.cnn(observations))
+  File "C:\Users\Wendy\miniconda3\envs\minigrid\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Wendy\miniconda3\envs\minigrid\lib\site-packages\torch\nn\modules\container.py", line 204, in forward
+    input = module(input)
+  File "C:\Users\Wendy\miniconda3\envs\minigrid\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Wendy\miniconda3\envs\minigrid\lib\site-packages\torch\nn\modules\conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\Wendy\miniconda3\envs\minigrid\lib\site-packages\torch\nn\modules\conv.py", line 460, in _conv_forward
+    self.padding, self.dilation, self.groups)
+KeyboardInterrupt
+(minigrid) PS C:\Users\Wendy\Desktop\RESEARCH\dqn_instruction_following\dqn_instruction_following> python evaluate_goto_more_objects.py
+
+
+====================================================================================================
+GOTO OBJECT: MORE OBJECTS GENERALIZATION TEST
+Trained on: MiniGrid-GoToObject-6x6-N2-v0
+Testing on: ['MiniGrid-GoToObject-6x6-N2-v0']
+Extra objects to add: [0, 1, 2, 3]
+Seeds: [0, 1, 2]
+====================================================================================================
+
+
+====================================================================================================
+TESTING: MiniGrid-GoToObject-6x6-N2-v0
+====================================================================================================
+
+PPO-allocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=4
+    Success: 66.0% | Return: 0.645 | Entropy: 0.611
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 51.0% | Return: 0.499 | Entropy: 0.597
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.975, steps=5
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.960, steps=8
+    Success: 50.0% | Return: 0.489 | Entropy: 0.683
+  Aggregated: 55.7% ± 7.3%
+
+PPO-egocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=3
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.995, steps=1
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 71.0% | Return: 0.695 | Entropy: 0.635
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.980, steps=4
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 73.0% | Return: 0.716 | Entropy: 0.605
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 64.0% | Return: 0.627 | Entropy: 0.711
+  Aggregated: 69.3% ± 3.9%
+
+DQN-allocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+DQN-egocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+====================================================================================================
+TESTING: MiniGrid-GoToObject-6x6-N2-v0 (+1 objects)
+====================================================================================================
+
+PPO-allocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.985, steps=3
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=5
+    Success: 42.0% | Return: 0.410 | Entropy: 0.790
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=1
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.995, steps=1
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 35.0% | Return: 0.343 | Entropy: 0.750
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.955, steps=9
+    Success: 39.0% | Return: 0.381 | Entropy: 0.792
+  Aggregated: 38.7% ± 2.9%
+
+PPO-egocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.995, steps=1
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 55.0% | Return: 0.538 | Entropy: 0.657
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.990, steps=2
+    Ep 3: reward=0.000, steps=6
+    Ep 4: reward=0.000, steps=180
+    Success: 49.0% | Return: 0.480 | Entropy: 0.651
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.975, steps=5
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.980, steps=4
+    Success: 49.0% | Return: 0.479 | Entropy: 0.790
+  Aggregated: 51.0% ± 2.8%
+
+DQN-allocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+DQN-egocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+====================================================================================================
+TESTING: MiniGrid-GoToObject-6x6-N2-v0 (+2 objects)
+====================================================================================================
+
+PPO-allocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.950, steps=10
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.965, steps=7
+    Success: 31.0% | Return: 0.302 | Entropy: 0.851
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 22.0% | Return: 0.215 | Entropy: 0.820
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 31.0% | Return: 0.303 | Entropy: 0.831
+  Aggregated: 28.0% ± 4.2%
+
+PPO-egocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 42.0% | Return: 0.410 | Entropy: 0.720
+  Evaluating Seed 1...
+    Ep 0: reward=0.955, steps=9
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.970, steps=6
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 46.0% | Return: 0.450 | Entropy: 0.650
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=5
+    Ep 1: reward=0.990, steps=2
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 43.0% | Return: 0.422 | Entropy: 0.738
+  Aggregated: 43.7% ± 1.7%
+
+DQN-allocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+DQN-egocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+====================================================================================================
+TESTING: MiniGrid-GoToObject-6x6-N2-v0 (+3 objects)
+====================================================================================================
+
+PPO-allocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=3
+    Success: 30.0% | Return: 0.294 | Entropy: 0.970
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 14.0% | Return: 0.138 | Entropy: 0.945
+  Evaluating Seed 2...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 19.0% | Return: 0.186 | Entropy: 0.940
+  Aggregated: 21.0% ± 6.7%
+
+PPO-egocentric:
+  Evaluating Seed 0...
+    Ep 0: reward=0.965, steps=7
+    Ep 1: reward=0.975, steps=5
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=180
+    Success: 39.0% | Return: 0.381 | Entropy: 0.712
+  Evaluating Seed 1...
+    Ep 0: reward=0.000, steps=180
+    Ep 1: reward=0.995, steps=1
+    Ep 2: reward=0.995, steps=1
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=8
+    Success: 52.0% | Return: 0.510 | Entropy: 0.670
+  Evaluating Seed 2...
+    Ep 0: reward=0.965, steps=7
+    Ep 1: reward=0.000, steps=180
+    Ep 2: reward=0.000, steps=180
+    Ep 3: reward=0.000, steps=180
+    Ep 4: reward=0.000, steps=7
+    Success: 40.0% | Return: 0.392 | Entropy: 0.779
+  Aggregated: 43.7% ± 5.9%
+
+DQN-allocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+DQN-egocentric:
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed0.zip, skipping seed 0...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed1.zip, skipping seed 1...
+  Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed2.zip, skipping seed 2...
+  No models found, skipping...
+
+====================================================================================================
+FINAL RESULTS: MORE OBJECTS GENERALIZATION
+====================================================================================================
+                    Train Env                      Test Env  Extra Objects Algorithm Observation Success Rate (%)    Avg Return  
+  Avg Steps  Num Seeds   Avg Entropy
+MiniGrid-GoToObject-6x6-N2-v0 MiniGrid-GoToObject-6x6-N2-v0              0       PPO Allocentric       55.7 ± 7.3 0.544 ± 0.071  
+73.0 ± 12.7          3 0.631 ± 0.037
+MiniGrid-GoToObject-6x6-N2-v0 MiniGrid-GoToObject-6x6-N2-v0              0       PPO  Egocentric       69.3 ± 3.9 0.679 ± 0.038  
+ 52.8 ± 5.5          3 0.650 ± 0.045
+MiniGrid-GoToObject-6x6-N2-v0 MiniGrid-GoToObject-6x6-N2-v0              1       PPO Allocentric       38.7 ± 2.9 0.378 ± 0.028  
+ 98.8 ± 7.8          3 0.777 ± 0.019
+MiniGrid-GoToObject-6x6-N2-v0 MiniGrid-GoToObject-6x6-N2-v0              1       PPO  Egocentric       51.0 ± 2.8 0.499 ± 0.028  
+ 78.6 ± 8.4          3 0.699 ± 0.064
+MiniGrid-GoToObject-6x6-N2-v0 MiniGrid-GoToObject-6x6-N2-v0              2       PPO Allocentric       28.0 ± 4.2 0.273 ± 0.041  
+120.9 ± 9.6          3 0.834 ± 0.013
+MiniGrid-GoToObject-6x6-N2-v0 MiniGrid-GoToObject-6x6-N2-v0              2       PPO  Egocentric       43.7 ± 1.7 0.427 ± 0.017  
+ 88.1 ± 7.1          3 0.703 ± 0.038
+MiniGrid-GoToObject-6x6-N2-v0 MiniGrid-GoToObject-6x6-N2-v0              3       PPO Allocentric       21.0 ± 6.7 0.206 ± 0.065 131.3 ± 17.1          3 0.951 ± 0.013
+MiniGrid-GoToObject-6x6-N2-v0 MiniGrid-GoToObject-6x6-N2-v0              3       PPO  Egocentric       43.7 ± 5.9 0.428 ± 0.058  
+89.1 ± 11.8          3 0.721 ± 0.045
+====================================================================================================
+
+Results saved to: results/goto_more_objects.csv
+
+====================================================================================================
+PERFORMANCE DROP ANALYSIS
+====================================================================================================
+
+PPO-Allocentric:
+  +0 objects: 55.7% (drop: 0.0%)
+  +1 objects: 38.7% (drop: 17.0%)
+  +2 objects: 28.0% (drop: 27.7%)
+  +3 objects: 21.0% (drop: 34.7%)
+
+PPO-Egocentric:
+  +0 objects: 69.3% (drop: 0.0%)
+  +1 objects: 51.0% (drop: 18.3%)
+  +2 objects: 43.7% (drop: 25.6%)
+  +3 objects: 43.7% (drop: 25.6%)

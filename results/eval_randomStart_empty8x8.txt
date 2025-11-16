@@ -1,0 +1,77 @@
+================================================================================
+GENERALIZATION TEST: Trained on Fixed Start, Evaluated on Random Start
+Environment: MiniGrid-Empty-8x8-v0
+Seeds: [0, 1, 2]
+Episodes per seed: 100
+================================================================================
+
+Evaluating PPO - allocentric - Seed 0 (Random Start)...
+  Seed 0: Success Rate: 85.0% | Return: 0.827 ± 0.348 | Entropy: 0.917 ± 0.247
+
+Evaluating PPO - allocentric - Seed 1 (Random Start)...
+  Seed 1: Success Rate: 81.0% | Return: 0.789 ± 0.382 | Entropy: 0.378 ± 0.345
+
+Evaluating PPO - allocentric - Seed 2 (Random Start)...
+  Seed 2: Success Rate: 0.0% | Return: 0.000 ± 0.000 | Entropy: 0.724 ± 0.362
+
+
+PPO-allocentric SUMMARY:
+  Mean Success Rate: 55.3% ± 39.2%
+  Mean Return: 0.539 ± 0.381
+  Mean Steps: 93.4 ± 75.4
+  Mean Entropy: 0.673 ± 0.223
+  (3 seeds)
+Evaluating PPO - egocentric - Seed 0 (Random Start)...
+  Seed 0: Success Rate: 52.0% | Return: 0.507 ± 0.487 | Entropy: 0.649 ± 0.230
+
+Evaluating PPO - egocentric - Seed 1 (Random Start)...
+  Seed 1: Success Rate: 45.0% | Return: 0.442 ± 0.489 | Entropy: 0.966 ± 0.381
+
+Evaluating PPO - egocentric - Seed 2 (Random Start)...
+  Seed 2: Success Rate: 72.0% | Return: 0.703 ± 0.438 | Entropy: 0.306 ± 0.282
+
+
+PPO-egocentric SUMMARY:
+  Mean Success Rate: 56.3% ± 11.4%
+  Mean Return: 0.550 ± 0.111
+  Mean Steps: 91.0 ± 21.9
+  Mean Entropy: 0.641 ± 0.270
+  (3 seeds)
+Evaluating DQN - allocentric - Seed 0 (Random Start)...
+  Seed 0: Success Rate: 100.0% | Return: 0.952 ± 0.086
+
+Evaluating DQN - allocentric - Seed 1 (Random Start)...
+  Seed 1: Success Rate: 100.0% | Return: 0.965 ± 0.039
+
+Evaluating DQN - allocentric - Seed 2 (Random Start)...
+  Seed 2: Success Rate: 100.0% | Return: 0.968 ± 0.028
+
+
+DQN-allocentric SUMMARY:
+  Mean Success Rate: 100.0% ± 0.0%
+  Mean Return: 0.962 ± 0.007
+  Mean Steps: 10.8 ± 2.1
+  (3 seeds)
+Evaluating DQN - egocentric - Seed 0 (Random Start)...
+  Seed 0: Success Rate: 100.0% | Return: 0.969 ± 0.009
+
+Evaluating DQN - egocentric - Seed 1 (Random Start)...
+  Seed 1: Success Rate: 100.0% | Return: 0.974 ± 0.009
+
+Evaluating DQN - egocentric - Seed 2 (Random Start)...
+  Seed 2: Success Rate: 100.0% | Return: 0.974 ± 0.011
+
+DQN-egocentric SUMMARY:
+  Mean Success Rate: 100.0% ± 0.0%
+  Mean Return: 0.972 ± 0.002
+  Mean Steps: 7.8 ± 0.6
+  (3 seeds)
+========================================================================================================================
+GENERALIZATION TEST: Random Starting Positions (Aggregated across seeds)
+========================================================================================================================
+          Environment Algorithm Observation Success Rate (%)    Avg Return   Avg Steps   Avg Entropy  Num Seeds
+MiniGrid-Empty-8x8-v0       PPO Allocentric      55.3 ± 39.2 0.539 ± 0.381 93.4 ± 75.4 0.673 ± 0.223          3
+MiniGrid-Empty-8x8-v0       PPO  Egocentric      56.3 ± 11.4 0.550 ± 0.111 91.0 ± 21.9 0.641 ± 0.270          3
+MiniGrid-Empty-8x8-v0       DQN Allocentric      100.0 ± 0.0 0.962 ± 0.007  10.8 ± 2.1           N/A          3
+MiniGrid-Empty-8x8-v0       DQN  Egocentric      100.0 ± 0.0 0.972 ± 0.002   7.8 ± 0.6           N/A          3
+========================================================================================================================

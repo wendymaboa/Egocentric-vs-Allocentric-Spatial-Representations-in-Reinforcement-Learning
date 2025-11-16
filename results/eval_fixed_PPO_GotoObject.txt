@@ -1,0 +1,49 @@
+================================================================================
+EVALUATING MODELS ON: MiniGrid-GoToObject-6x6-N2-v0
+Seeds: [0, 1, 2]
+Episodes per seed: 100
+================================================================================
+
+Evaluating PPO - allocentric - Seed 0...
+  Seed 0: Success Rate: 66.0% | Return: 0.645 ± 0.463 | Entropy: 0.611 ± 0.313
+
+Evaluating PPO - allocentric - Seed 1...
+  Seed 1: Success Rate: 51.0% | Return: 0.499 ± 0.489 | Entropy: 0.597 ± 0.367
+
+Evaluating PPO - allocentric - Seed 2...
+  Seed 2: Success Rate: 50.0% | Return: 0.489 ± 0.489 | Entropy: 0.683 ± 0.393
+
+
+PPO-allocentric SUMMARY:
+  Mean Success Rate: 55.7% ± 7.3%
+  Mean Return: 0.544 ± 0.071
+  Mean Steps: 73.0 ± 12.7
+  Mean Entropy: 0.631 ± 0.037
+  (3 seeds)
+Evaluating PPO - egocentric - Seed 0...
+  Seed 0: Success Rate: 71.0% | Return: 0.695 ± 0.445 | Entropy: 0.635 ± 0.342
+
+Evaluating PPO - egocentric - Seed 1...
+  Seed 1: Success Rate: 73.0% | Return: 0.716 ± 0.435 | Entropy: 0.605 ± 0.334
+
+Evaluating PPO - egocentric - Seed 2...
+  Seed 2: Success Rate: 64.0% | Return: 0.627 ± 0.470 | Entropy: 0.711 ± 0.369
+
+
+PPO-egocentric SUMMARY:
+  Mean Success Rate: 69.3% ± 3.9%
+  Mean Return: 0.679 ± 0.038
+  Mean Steps: 52.8 ± 5.5
+  Mean Entropy: 0.650 ± 0.045
+  (3 seeds)
+
+========================================================================================================================
+PERFORMANCE COMPARISON TABLE (Aggregated across seeds)
+========================================================================================================================
+                  Environment Algorithm Observation Start Type Success Rate (%)    Avg Return   Avg Steps  Num Seeds   Avg Entropy
+MiniGrid-GoToObject-6x6-N2-v0       PPO allocentric      fixed       55.7 ± 7.3 0.544 ± 0.071 73.0 ± 12.7          3 0.631 ± 0.037
+MiniGrid-GoToObject-6x6-N2-v0       PPO  egocentric      fixed       69.3 ± 3.9 0.679 ± 0.038  52.8 ± 5.5          3 0.650 ± 0.045
+========================================================================================================================
+
+
+Results saved to: results/comparison_table.csv

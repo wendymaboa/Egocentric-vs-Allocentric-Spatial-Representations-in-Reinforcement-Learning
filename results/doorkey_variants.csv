@@ -1,0 +1,5 @@
+Algorithm,Observation,Standard Success (%),Random Colors Success (%),Performance Drop (%),Standard Return,Random Return,Num Seeds
+PPO,Allocentric,85.7 ± 14.4,6.0 ± 2.2,79.7,0.827 ± 0.138,0.058 ± 0.021,3
+PPO,Egocentric,78.0 ± 31.1,6.7 ± 3.4,71.3,0.752 ± 0.301,0.064 ± 0.033,3
+DQN,Allocentric,100.0 ± 0.0,13.0 ± 2.8,87.0,0.960 ± 0.000,0.122 ± 0.021,3
+DQN,Egocentric,100.0 ± 0.0,8.7 ± 1.7,91.3,0.960 ± 0.000,0.083 ± 0.015,3

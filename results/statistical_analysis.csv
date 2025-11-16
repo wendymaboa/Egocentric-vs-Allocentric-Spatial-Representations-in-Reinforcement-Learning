@@ -1,0 +1,8 @@
+comparison,n1,n2,mean1,std1,mean2,std2,mann_whitney_p_value,mann_whitney_significant,cohens_d,effect_size_interpretation,ci_significant
+PPO-Egocentric vs PPO-Allocentric,3,3,1.0,0.0,1.0,0.0,1.0,False,,large,False
+DQN-Egocentric vs DQN-Allocentric,3,3,1.0,0.0,1.0,0.0,1.0,False,,large,False
+PPO-Egocentric vs PPO-Allocentric,3,3,0.6666666666666666,0.5773502691896258,0.6666666666666666,0.5773502691896258,1.0,False,0.0,negligible,False
+DQN-Egocentric vs DQN-Allocentric,3,3,1.0,0.0,1.0,0.0,1.0,False,,large,False
+PPO-Egocentric vs PPO-Allocentric,3,3,0.7799999999999999,0.381051177665153,0.8566666666666668,0.17616280348965083,1.0,False,-0.25827213419752565,small,False
+DQN-Egocentric vs DQN-Allocentric,3,3,1.0,0.0,1.0,0.0,1.0,False,,large,False
+PPO-Egocentric vs PPO-Allocentric,3,3,0.6933333333333334,0.04725815626252606,0.5566666666666666,0.08962886439832503,0.2,False,1.907492631316866,large,False

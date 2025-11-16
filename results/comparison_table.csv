@@ -1,0 +1,5 @@
+Environment,Algorithm,Observation,Start Type,Success Rate (%),Avg Return,Avg Steps,Num Seeds,Avg Entropy
+MiniGrid-DoorKey-5x5-v0,PPO,allocentric,fixed,85.7 ± 14.4,0.827 ± 0.138,37.0 ± 27.2,3,0.372 ± 0.182
+MiniGrid-DoorKey-5x5-v0,PPO,egocentric,fixed,78.0 ± 31.1,0.752 ± 0.301,51.8 ± 59.3,3,0.260 ± 0.172
+MiniGrid-DoorKey-5x5-v0,DQN,allocentric,fixed,100.0 ± 0.0,0.960 ± 0.000,11.1 ± 0.1,3,N/A
+MiniGrid-DoorKey-5x5-v0,DQN,egocentric,fixed,100.0 ± 0.0,0.960 ± 0.000,11.1 ± 0.1,3,N/A

@@ -1,0 +1,56 @@
+================================================================================
+GENERALIZATION TEST: Trained on Fixed Start, Evaluated on Random Start
+Environment: MiniGrid-GoToObject-6x6-N2-v0
+Seeds: [0, 1, 2]
+Episodes per seed: 100
+================================================================================
+
+Evaluating PPO - allocentric - Seed 0 (Random Start)...
+  Seed 0: Success Rate: 58.0% | Return: 0.567 ± 0.483 | Entropy: 0.648 ± 0.316
+
+Evaluating PPO - allocentric - Seed 1 (Random Start)...
+  Seed 1: Success Rate: 52.0% | Return: 0.508 ± 0.488 | Entropy: 0.653 ± 0.383
+
+Evaluating PPO - allocentric - Seed 2 (Random Start)...
+  Seed 2: Success Rate: 63.0% | Return: 0.617 ± 0.473 | Entropy: 0.576 ± 0.357
+
+
+PPO-allocentric SUMMARY:
+  Mean Success Rate: 57.7% ± 4.5%
+  Mean Return: 0.564 ± 0.045
+  Mean Steps: 71.7 ± 7.2
+  Mean Entropy: 0.626 ± 0.035
+  (3 seeds)
+Evaluating PPO - egocentric - Seed 0 (Random Start)...
+  Seed 0: Success Rate: 67.0% | Return: 0.657 ± 0.461 | Entropy: 0.672 ± 0.356
+
+Evaluating PPO - egocentric - Seed 1 (Random Start)...
+  Seed 1: Success Rate: 68.0% | Return: 0.666 ± 0.457 | Entropy: 0.630 ± 0.322
+
+Evaluating PPO - egocentric - Seed 2 (Random Start)...
+  Seed 2: Success Rate: 61.0% | Return: 0.598 ± 0.478 | Entropy: 0.746 ± 0.345
+
+
+PPO-egocentric SUMMARY:
+  Mean Success Rate: 65.3% ± 3.1%
+  Mean Return: 0.641 ± 0.030
+  Mean Steps: 58.5 ± 6.3
+  Mean Entropy: 0.683 ± 0.048
+  (3 seeds)
+Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed0.zip, skipping seed 0...
+Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed1.zip, skipping seed 1...
+Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_allocentric_seed2.zip, skipping seed 2...
+Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed0.zip, skipping seed 0...
+Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed1.zip, skipping seed 1...
+Model not found: models/MiniGrid-GoToObject-6x6-N2-v0_dqn_egocentric_seed2.zip, skipping seed 2...
+
+========================================================================================================================
+GENERALIZATION TEST: Random Starting Positions (Aggregated across seeds)
+========================================================================================================================
+                  Environment Algorithm Observation Success Rate (%)    Avg Return  Avg Steps   Avg Entropy  Num Seeds
+MiniGrid-GoToObject-6x6-N2-v0       PPO Allocentric       57.7 ± 4.5 0.564 ± 0.045 71.7 ± 7.2 0.626 ± 0.035          3
+MiniGrid-GoToObject-6x6-N2-v0       PPO  Egocentric       65.3 ± 3.1 0.641 ± 0.030 58.5 ± 6.3 0.683 ± 0.048          3
+========================================================================================================================
+
+
+Results saved to: results/random_start_eval.csv
