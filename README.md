@@ -1,5 +1,6 @@
 # Egocentric vs Allocentric Spatial Representations in Reinforcement Learning
 
+<img src="images/wallbanner.jpeg" alt="Diagram" width="600">
 ![Project Banner](images/wallbanner.jpeg)
 
 > **Research Project**: Investigating how spatial perspective (egocentric vs allocentric) affects RL agent performance across navigation and object-interaction tasks.
@@ -396,7 +397,7 @@ python plot_training_metrics.py \
 
 **Output:** `plots/Empty-8x8_ppo_egocentric_multiseed.png`
 
-![Training Curves](https://via.placeholder.com/800x400/2E86AB/FFFFFF?text=Mean+%C2%B1+Std+Training+Curves)
+![Training Curves](plots/Empty-8x8_ppo_egocentric_multiseed_episodes.png)
 
 ### 3. Ego vs Allo Comparison
 
@@ -420,7 +421,7 @@ python plot_gotoobject_comparison.py
 
 **Output:** `plots/gotoobject_comparison.png`
 
-![GoToObject Results](https://via.placeholder.com/800x300/A23B72/FFFFFF?text=Ego+69%25+vs+Allo+56%25)
+![GoToObject Results](plots/gotoobject_comparison.png)
 
 ---
 
@@ -546,12 +547,6 @@ If you use this code in your research, please cite:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 🙏 Acknowledgments
 
 - **Supervisor:** Dr. Geraud Nangue Tasse
@@ -566,8 +561,3 @@ This project is licensed under the MIT License.
 School of Computer Science & Applied Mathematics  
 University of the Witwatersrand  
 Email: 2541693@students.wits.ac.za
-
----
-
-**Last Updated:** November 2024  
-**Status:** ✅ Ready for Submission
