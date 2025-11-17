@@ -1,6 +1,6 @@
 # Egocentric vs Allocentric Spatial Representations in Reinforcement Learning
 
-![Project Banner](https://via.placeholder.com/1200x300/2E86AB/FFFFFF?text=RL+Spatial+Representations+Research)
+![Project Banner](images/download(13)/jpeg)
 
 > **Research Project**: Investigating how spatial perspective (egocentric vs allocentric) affects RL agent performance across navigation and object-interaction tasks.
 
