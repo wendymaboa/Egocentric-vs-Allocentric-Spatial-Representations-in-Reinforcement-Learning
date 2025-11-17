@@ -1,6 +1,6 @@
 # Egocentric vs Allocentric Spatial Representations in Reinforcement Learning
 
-![Project Banner](images/Alpha pattern #32789.jpeg)
+![Project Banner](images/wallbanner.jpeg)
 
 > **Research Project**: Investigating how spatial perspective (egocentric vs allocentric) affects RL agent performance across navigation and object-interaction tasks.
 
@@ -152,7 +152,7 @@ python visualize_sb3.py --env_key MiniGrid-Empty-5x5-v0 --agent_type ppo --egoce
 python visualize_sb3.py --env_key MiniGrid-Empty-5x5-v0 --agent_type ppo --egocentric --seed 0 --save --episodes 5 --fps 3
 ```
 
-![Demo GIF](https://via.placeholder.com/600x400/A23B72/FFFFFF?text=Agent+Navigation+Demo)
+![Demo GIF](images/Minigrid-GoToObject-6x6-N2-v0_ppo_egocentric_seed2_sb3.gif)
 
 ---
 
